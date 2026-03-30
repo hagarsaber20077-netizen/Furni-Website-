@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>onsite 5</title>
+</head>
+<body>
+    <header id="header">
+             <nav class="navbar d-flex container align-items-center p-4">
+            <h5 class="text-light">Furni.</h5>
+            <div class="d-flex">
+            <ul class="d-flex me-5" >
+                <li class="list-unstyled"><a href="index.html" class="nav-link ms-5 text-light ">Home</a></li>
+                <li class="list-unstyled"><a href="shop.html" class="nav-link ms-5 text-light">shop</a></li>
+                <li class="list-unstyled"><a href="about.html" class="nav-link ms-5 text-light">About us</a></li>
+                <li class="list-unstyled"><a href="services.html" class="nav-link ms-5 text-light">Services</a></li>
+                <li class="list-unstyled"><a href="blog.html" class="nav-link ms-5 text-light">Blog</a></li>
+                <li class="list-unstyled"><a href="contact.html" class="nav-link ms-5 text-light ">Contact us</a></li>
+            </ul>
+            <a href="checkout.html" class="text-light text-decoration-none"><img src="./images/user.svg" alt="" class="me-5"></a>
+            <a href="cart.html" class="text-light "><img src="./images/cart.svg" alt=""></a>
+            </div>
+        </nav>
+        <div class="d-flex container mt-5 p-5">
+            <div class="text">
+                <h1 class="text-capitalize text-4lg text-light">checkout</h1>
+                <p class="mt-4 text-light"> dolor sit amet consectetur adipisicing elit. Quia, voluptas.</p>
+                <p class="mt-3 text-light"> dolor sit amet consectetur adipisicing elit. Quia, voluptas.</p>
+                <div class="mt-4">
+                    <button class="btn rounded-5  ps-3 pe-3" id="btn"><a href="shop.html" class="text-decoration-none text-light"> Shop Now </a></button>
+                    <button class="btn rounded-5  ps-3 pe-3 btn-outline-light"><a href="#section1" class="text-decoration-none text-light"> Explore </a></button>
+
+                </div>
+            </div>
+            <div>
+            <img src="./images/couch.png" alt="" class="w-100">
+            </div>
+        </div>
+    </header>
+    <section class="p-5" id="section1">
+        <div class="container">
+            <button class=" btn-outline-dark w-100 p-4 mt-5">Roturning customer? <a href="">Click here</a> to login</button>
+      
+            <h4 class="text-capitalize mt-md-5 p-3">billing details</h4>
+
+        <div class="d-flex">
+            <div class="container bg-light ">
+                <div class="d-flex flex-column">
+                <label for="country" class="form-label">Country*</label>
+                <input type="text" id="country" placeholder="Select Country" class="form-control p-md-3">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                <label for="fname" class="form-label">First Name*</label>
+                <input type="text" id="fname"  class="form-control p-md-3">
+                  </div>
+                    <div class="d-flex flex-column">
+                <label for="lname" class="form-label">Last Name*</label>
+                <input type="text" id="lname"  class="form-control p-md-3 m-auto">
+                    </div>
+                </div>
+                   <div class="d-flex flex-column">
+                <label for="company" class="form-label">Company Name*</label>
+                <input type="text" id="company" class="form-control p-md-3">
+                </div>
+                   <div class="d-flex flex-column">
+                <label for="address" class="form-label">Address*</label>
+                <input type="text" id="address" placeholder="Sanoot Addresss" class="form-control p-md-3">
+                </div>
+                   <div class="mt-md-3">
+                <input type="text"  placeholder="Apartment  (Optional)" class="form-control p-md-3">
+                </div>
+                       <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                <label for="state" class="form-label">State / Country*</label>
+                <input type="text" id="state"  class="form-control p-md-3">
+                  </div>
+                    <div class="d-flex flex-column">
+                <label for="posta" class="form-label">Posta / Zip*</label>
+                <input type="text" id="posta"  class="form-control p-md-3 m-auto">
+                    </div>
+                </div>
+                       <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                <label for="email" class="form-label">Email Address*</label>
+                <input type="text" id="email"  class="form-control p-md-3">
+                  </div>
+                    <div class="d-flex flex-column">
+                <label for="phone" class="form-label">Phone*</label>
+                <input type="text" id="phone"  class="form-control p-md-3 m-auto">
+                    </div>
+                </div>
+                <div class="d-flex flex-column mt-5">
+                    <div class="d-flex ">
+                    <input type="checkbox" id="check1" class="form-check ">
+                    <label for="check1" class="ms-1">Creat an Acount?</label>
+                    </div>
+                      <div class="d-flex mt-2">
+                    <input type="checkbox" id="check2" class="form-check">
+                    <label for="check2" class="ms-1">Ship TO A Diffrent Address?</label>
+                    </div>
+                </div>
+                      <div class="d-flex flex-column mt-3">
+                <label for="message" class="form-label">Order Notes*</label>
+                <textarea  id="message" rows="10" cols="30" placeholder="Write Your notes here_" class="form-text form-control p-md-3"></textarea>
+                </div>
+            </div> 
+
+            <div class="container p-lg-3 mb-lg-5">
+            <h4 class="">Coupon Code</h4>
+            <div class="bg-light p-md-5 ">
+                <label for="coupon" class="form-label">Enter your coupon code if you have one</label>
+                <div class="d-flex">
+                <input type="text" id="coupon" placeholder="Coupon Code" class="form-control p-md-3 mt-3 me-3">
+                <button class="btn text-light bg-dark p-md-1 rounded-pill w-25">Apply</button>
+                </div>
+            </div>
+             <div class="mt-lg-5">
+                <h4>Your Order</h4>
+                <div class="bg-light p-md-5">
+                    <div class="d-flex justify-content-lg-between">
+                        <h5>Product</h5>
+                        <h5>Total</h5>
+                    </div>
+                    <hr>
+                         <div class="d-flex justify-content-lg-between">
+                        <p>Top Up T-Shirt  <h5>x</h5>  1</p>
+                        <p>$250.00</p>
+                    </div>
+                    <hr>
+                     <div class="d-flex justify-content-lg-between">
+                        <p>Polo Shirt  <h5>x</h5>  1</p>
+                        <p>$100.00</p>
+                    </div>
+                    <hr>
+                     <div class="d-flex justify-content-lg-between">
+                        <h5>Cart Sub Total</h5>
+                        <p>$350.00</p>
+                    </div>
+                    <hr>
+                     <div class="d-flex justify-content-lg-between">
+                        <h5>Order Total</h5>
+                        <h5>$350.00</h5>
+                    </div>
+                    <hr>
+                    <div class="d-flex flex-column text-md-start">
+                    <button class="btn btn-outline-dark mt-md-5"><a href="" class="text-dark p-3 w-75">Direct Bank Transfer</a></button>
+                    <button class="btn btn-outline-dark mt-md-2"><a href="" class="text-dark p-3 w-75">Cheque Payment</a></button>
+                    <button class="btn btn-outline-dark mt-md-2"><a href="" class="text-dark p-3 w-75">Paypal  </a></button>
+                    <button class="btn mt-md-5 text-light bg-dark p-md-3 rounded-pill w-50"><a href="thankyou.html" class="text-decoration-none text-light">Place Order </a></button>
+                    </div>
+                </div>
+             </div>
+                
+            </div>
+        </div>
+          </div>
+    </section>
+        <footer>      
+        <section class="mt-5 p-5 w-100">
+            <div class="container d-flex justify-content-between align-items-end p-5 mt-5">
+                <div class="mt-5 ">
+            <h5><span><img src="./images/envelope-outline.svg" alt=""></span>Subscribe to Newsletter</h5>
+            <div class="d-flex ">
+                <input type="text" placeholder="Enter Your Name" class="form-control p-3">
+                <input type="email" placeholder="Enter Your Email" class="form-control ms-2 p-3">
+                <a href="" class="p-3 bg-success rounded-2 btn-outline-dark ms-2">
+                <img src="./images/envelope-outline.svg" alt="">
+                </a>
+
+            </div>
+            </div>
+            <div class=" d-flex justify-content-end "><img src="./images/sofa.png" alt="" class="w-50"></div>
+            </div>
+        </section>
+        <section class="p-5">
+            <div class="container m-auto">
+                <h1>Furni.</h1>
+                <div class="d-flex justify-content-between">
+                    <div class="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit </p>
+                        <p>ut, placeat quod odit rem a laborum enim quos, dolor</p>
+                         <p>culpa porro sit maxime accusantium aperiam mollitia, per</p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="">
+                        <p>About us </p>
+                        <p>About us</p>
+                        <p>About us</p>
+                        <p>About us</p>
+
+                    </div>
+                       <div class="">
+                        <p>About us </p>
+                        <p>About us</p>
+                        <p>About us</p>
+
+                    </div>
+                    <div class="">
+                        <p>About us</p>
+                        <p>About us</p>
+                        <p>About us</p>
+                        <p>About us</p>
+                        </div>
+
+                        <div class="">
+                            <p>Lorem ipsum dolor</p>
+                            <p>Lorem ipsum dolor</p>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                </div>
+                 <div class=" mt-3">
+                    <i class="p-2 m-auto bg-success rounded-circle"><a href="" class="text-decoration-none text-light">f</a></i>
+                    <i class="p-2 m-auto bg-success rounded-circle"><a href="" class="text-decoration-none text-light">t</a></i>
+                    <i class="p-2 m-auto bg-success rounded-circle"><a href="" class="text-decoration-none text-light">f</a></i>
+                    <i class="p-2 m-auto bg-success rounded-circle"><a href="" class="text-decoration-none text-light">t</a></i>
+
+                </div>
+            </div>
+        </section>
+            <hr>
+
+        <section class="p-">
+            <div class="container d-flex justify-content-between">
+                <p>onsite-5 @2024 Lorem ipsum dolor-Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                <p>Lorem ipsum <span class="m-auto">Lorem ipsum</span></p>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
